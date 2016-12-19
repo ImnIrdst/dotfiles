@@ -1,0 +1,26 @@
+#!/usr/bin/env python
+
+import sh
+
+def just_alpha(string):
+	result = ""
+	for char in string:
+		if char.isalnum():
+			result += char
+	return result
+
+connections = sh.nmcli("con", "show", "--active")
+
+connection_names = []
+for line in connections.split("\n"):
+	if line != "":
+		connection_name = line.split()[0];
+		if connection_name != 'NAME':
+			connection_name = connection_name.replace(u'\x1b[32m', '')
+			connection_name = connection_name.replace(u'\x1b[33m', '')
+			connection_name = connection_name.replace(u'\x1b[0m', '')
+			
+			connection_names.append(connection_name)
+
+# print connection_names
+print " | ".join(connection_names)
