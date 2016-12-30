@@ -1,0 +1,13 @@
+#!/usr/bin/env python
+
+import sh
+
+monitors = sh.xrandr("--listactivemonitors")
+
+monitor_names = []
+for line in monitors.split("\n"):
+	tokens = line.split()
+	if (len(tokens) != 0 and tokens[0] != u'Monitors:'):
+		monitor_names.append(tokens[-1])
+
+print " | ".join(monitor_names)
