@@ -85,7 +85,7 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # colored GCC warnings and errors
-#export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
+# export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
 alias ll='ls -alF'
@@ -118,13 +118,16 @@ fi
 
 
 # beautifying terminal prompt
-export PS1='\e[1m\e[32m[\u@Thinkpad-E530 \e[0m\W\e[1m\e[32m]\e[0m$ '
-
+# export PS1='\e[1m\e[32m[\u@Thinkpad-E530 \e[0m\W\e[1m\e[32m]\e[0m$ '
+export PS1='\[\e]0;[\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@Thinkpad-E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
 export JAVA_HOME=/usr/local/java-1.7 # for java
 export JRE_HOME=$JAVA_HOME/jre # for java
 export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin # for java
 export PATH=$PATH:~/.local/bin # for jupyter 
 
 # password = 442339
-alias vpnconnect='sudo openconnect Cisco-US.20SPEED.US:52 --user=20speed313849'
-alias vpnpassword='echo "442339"'
+# alias vpnconnect='sudo openconnect Cisco-US.20SPEED.US:52 --user=20speed313849'
+# alias vpnpassword='echo "442339"'
+
+# the fuck configurations
+eval $(thefuck --alias)

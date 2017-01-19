@@ -141,16 +141,17 @@ bindsym $mod+Ctrl+Shift+Left move workspace to output left
 bindsym $mod+Ctrl+Shift+Right move workspace to output left
 
 # Program Classes (by me)
-assign [class="google-chrome"]          $workspace2
+# assign [class="google-chrome"]          $workspace2
 assign [class="Sublime_text"]           $workspace3
-assign [class="Thunar"]                 $workspace4
+# assign [class="Thunar"]                 $workspace4
 assign [class="TelegramDesktop"]        $workspace5
-assign [class="Skype"]                  $workspace5
+# assign [class="Skype"]                  $workspace5
 assign [class="Evince"]                 $workspace6
-assign [class="jetbrains-idea-ce"]      $workspace7
-assign [class="Eclipse"]                $workspace7
-assign [class="Spyder"]                 $workspace7
-assign [class="TeXstudio"]              $workspace7
+# assign [class="jetbrains-idea-ce"]      $workspace6
+# assign [class="Atom"]                   $workspace6
+# assign [class="Eclipse"]                $workspace6
+# assign [class="Spyder"]                 $workspace6
+# assign [class="TeXstudio"]              $workspace6
 assign [class="Rhythmbox"]              $workspace0
 # assign [class="Spotify"]                $workspace0 TeXstudio
 for_window [class="Spotify"] move to workspace $workspace0

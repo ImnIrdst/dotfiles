@@ -110,4 +110,27 @@ Applications/WebStorm-143.1559.5
 .config/user-dirs.locale
 .config/webbrowser-app/
 .config/xfce4/
+.config/thefuck/
 
+.ionic/
+.IntelliJIdea15/
+.atom/
+.config/Atom/
+.config/configstore/
+.config/midori/
+.node_repl_history
+.npm/
+.zcompdump
+.zcompdump-iman-ThinkPad-Edge-E530-5.1.1
+.zsh-update
+.zsh_history
+.zshrc
+
+.zshrc
+.vpnmakers
+.config/evince/accels
+.config/evince/accels
+.config/Brackets/
+.config/emaildefaults
+.config/kritarc
+.wget-hsts
