@@ -99,17 +99,17 @@ bindsym $mod+a focus parent
 # bindsym $mod+d focus child
 
 # workspace variables (by me)
-set $workspace1 "  01: Terminal"
-set $workspace2 "  02: Browser"
-set $workspace3 "  03: Editor"
-set $workspace4 "  04: Files"
-set $workspace5 "  05: Communication"
-set $workspace6 "  06: Document"
-set $workspace7 "  07: IDE"
-set $workspace8 "  08: Browser"
-set $workspace9 "  09: Workspace"
-set $workspace0 "  10: Music"
-# set $workspace0 "  10: Music"
+set $workspace1 1:  01: Terminal
+set $workspace2 2:  02: Browser
+set $workspace3 3:  03: Editor
+set $workspace4 4:  04: Files
+set $workspace5 5:  05: Communication
+set $workspace6 6:  06: Document
+set $workspace7 7:  07: IDE
+set $workspace8 8:  08: Browser
+set $workspace9 9:  09: Workspace
+set $workspace0 10:  10: Music
+# set $workspace0   10: Music
 
 
 # switch to workspace (by me)
@@ -142,12 +142,14 @@ bindsym $mod+Ctrl+Shift+Right move workspace to output left
 
 # Program Classes (by me)
 # assign [class="google-chrome"]          $workspace2
-assign [class="Sublime_text"]           $workspace3
+# assign [class="Sublime_text"]           $workspace3
 # assign [class="Thunar"]                 $workspace4
 assign [class="TelegramDesktop"]        $workspace5
 # assign [class="Skype"]                  $workspace5
 assign [class="Evince"]                 $workspace6
-# assign [class="jetbrains-idea-ce"]      $workspace6
+assign [class="jetbrains-pycharm"]      $workspace7
+assign [class="jetbrains-webstorm"]     $workspace7
+assign [class="jetbrains-idea-ce"]      $workspace7
 # assign [class="Atom"]                   $workspace6
 # assign [class="Eclipse"]                $workspace6
 # assign [class="Spyder"]                 $workspace6
@@ -212,6 +214,8 @@ hide_edge_borders both
 bar {
         font xft:Ubuntu, FontAwesome 10
 
+        strip_workspace_numbers yes
+
         # status_command i3status
         status_command i3blocks -c /home/iman/.config/i3/i3blocks.conf
         tray_output primary
@@ -249,3 +253,6 @@ exec_always feh --bg-fill "/mnt/4E903A9B903A8A0B/Scratchpad/Pics/clock_by_Bernha
 exec compton
 exec setxkbmap -layout us,ir -option grp:alt_shift_toggle
 exec redshift
+
+# 
+exec --no-startup-id gnome-settings-daemon

@@ -119,7 +119,7 @@ fi
 
 # beautifying terminal prompt
 # export PS1='\e[1m\e[32m[\u@Thinkpad-E530 \e[0m\W\e[1m\e[32m]\e[0m$ '
-export PS1='\[\e]0;[\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@Thinkpad-E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
+export PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@Thinkpad-E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
 export JAVA_HOME=/usr/local/java-1.7 # for java
 export JRE_HOME=$JAVA_HOME/jre # for java
 export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin # for java
@@ -131,3 +131,6 @@ export PATH=$PATH:~/.local/bin # for jupyter
 
 # the fuck configurations
 eval $(thefuck --alias)
+
+# Minimal PS1
+export MINIMAL_PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '

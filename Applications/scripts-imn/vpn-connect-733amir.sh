@@ -10,7 +10,7 @@ par1=$2
 par2=$3
 
 if   [ "${par1:0:1}" == "u" ]; then
-        openconnect -b -u iruser788867 --passwd-on-stdin --no-cert-check $3.cisadd.com < ~/.vpnmakers
+        openconnect -b -u iruser788867 --passwd-on-stdin --no-cert-check $3.cisadd.com <<< 'XXXXX'
 elif [ "${par1:0:1}" == "d" ]; then
         pkill -SIGINT openconnect
 elif [ "${par1:0:1}" == "s" ]; then
