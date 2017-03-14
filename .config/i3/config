@@ -144,16 +144,22 @@ bindsym $mod+Ctrl+Shift+Right move workspace to output left
 # assign [class="google-chrome"]          $workspace2
 # assign [class="Sublime_text"]           $workspace3
 # assign [class="Thunar"]                 $workspace4
+
 assign [class="TelegramDesktop"]        $workspace5
 # assign [class="Skype"]                  $workspace5
+
 assign [class="Evince"]                 $workspace6
+
 assign [class="jetbrains-pycharm"]      $workspace7
 assign [class="jetbrains-webstorm"]     $workspace7
 assign [class="jetbrains-idea-ce"]      $workspace7
-# assign [class="Atom"]                   $workspace6
-# assign [class="Eclipse"]                $workspace6
-# assign [class="Spyder"]                 $workspace6
-# assign [class="TeXstudio"]              $workspace6
+assign [class="jetbrains-studio"]       $workspace7
+assign [class="Brackets"]       	$workspace7
+assign [class="Atom"]                   $workspace7
+assign [class="Eclipse"]                $workspace7
+assign [class="Spyder"]                 $workspace7
+assign [class="TeXstudio"]              $workspace7
+
 assign [class="Rhythmbox"]              $workspace0
 # assign [class="Spotify"]                $workspace0 TeXstudio
 for_window [class="Spotify"] move to workspace $workspace0
@@ -250,9 +256,9 @@ exec_always feh --bg-fill "/mnt/4E903A9B903A8A0B/Scratchpad/Pics/clock_by_Bernha
 # exec xrandr --output VIRTUAL1 --off --output DP1 --off --output HDMI1 --off --output VGA-1-2 --off --output LVDS1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output VGA1 --off
 
 # startup programs (by me)
-exec compton
-exec setxkbmap -layout us,ir -option grp:alt_shift_toggle
-exec redshift
+exec compton # for adding tranparency to i3 (roffy and terminal)
+exec setxkbmap -layout us,ir -option grp:alt_shift_toggle # for adding alt-shift for changing keyboard layout settings
+exec redshift 
 
-# 
+# don't know 
 exec --no-startup-id gnome-settings-daemon
