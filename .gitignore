@@ -29,6 +29,10 @@ Applications/NVIDIA_CUDA-8.0_Samples
 Applications/pycharm-community-5.0.4
 Applications/Telegram
 Applications/WebStorm-143.1559.5
+Applications/PhpStorm-163.10504.2/
+Applications/WebStorm-163.12024.17/
+Applications/xkblayout-state/
+
 
 .config/QtProject.conf
 .config/RStudio/
@@ -86,9 +90,10 @@ Applications/WebStorm-143.1559.5
 .config/robomongo/
 .config/mpv/watch_later/
 .config/gpick/
-.config/transmission/
+.config/transmission
+.config/clipit/
 
-.ionic/
+/.ionic/
 .IntelliJIdea15/
 .atom/
 .node_repl_history
@@ -169,7 +174,19 @@ Applications/WebStorm-143.1559.5
 .audacity-data/
 .bash_history
 .bash_logout
+.PhpStorm2016.3/
+.cordova/
+.oracle_jre_usage/
+.v8flags.5.1.281.93.iman.json
+
+
 
 both-con-down.sh
 both-con-up.sh
+
+Add lang script to i3blocks
+
+Add google-keep script
+Add clipit and display-laptop-only to startup scripts
+Installing jdk1.8.0_121 and installing path variables
 

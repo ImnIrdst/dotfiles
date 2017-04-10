@@ -154,6 +154,7 @@ assign [class="jetbrains-pycharm"]      $workspace7
 assign [class="jetbrains-webstorm"]     $workspace7
 assign [class="jetbrains-idea-ce"]      $workspace7
 assign [class="jetbrains-studio"]       $workspace7
+assign [class="jetbrains-phpstorm"]       $workspace7
 assign [class="Brackets"]       	$workspace7
 assign [class="Atom"]                   $workspace7
 assign [class="Eclipse"]                $workspace7
@@ -252,13 +253,12 @@ bindsym $mod+l exec i3lock-imn
 # background
 exec_always feh --bg-fill "/mnt/4E903A9B903A8A0B/Scratchpad/Pics/clock_by_Bernhard_Hanakam.jpg"
 
-# display setting  (by me)
-# exec xrandr --output VIRTUAL1 --off --output DP1 --off --output HDMI1 --off --output VGA-1-2 --off --output LVDS1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output VGA1 --off
-
-# startup programs (by me)
+# startup scripts (by me)
 exec compton # for adding tranparency to i3 (roffy and terminal)
 exec setxkbmap -layout us,ir -option grp:alt_shift_toggle # for adding alt-shift for changing keyboard layout settings
+exec display-laptop-only # for default startup display mode
 exec redshift 
+exec clipit 
 
 # don't know 
 exec --no-startup-id gnome-settings-daemon

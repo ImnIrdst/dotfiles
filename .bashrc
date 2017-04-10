@@ -120,14 +120,21 @@ fi
 # beautifying terminal prompt
 # export PS1='\e[1m\e[32m[\u@Thinkpad-E530 \e[0m\W\e[1m\e[32m]\e[0m$ '
 export PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@Thinkpad-E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
-export JAVA_HOME=/usr/local/java-1.7 # for java
+
+# installling the java
+export JAVA_HOME=/usr/local/java/jdk1.8.0_121 # for java
 export JRE_HOME=$JAVA_HOME/jre # for java
 export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin # for java
+
+# installing the jupyter
 export PATH=$PATH:~/.local/bin # for jupyter 
 
-# password = 442339
-# alias vpnconnect='sudo openconnect Cisco-US.20SPEED.US:52 --user=20speed313849'
-# alias vpnpassword='echo "442339"'
+# adding adb (android debugging) paths
+export PATH=$PATH:/home/iman/Applications/android-sdk/android-sdk-linux/platform-tools
+
+# getting cordova builds
+export ANDROID_HOME=/home/iman/Applications/android-sdk/android-sdk-linux
+export PATH=$PATH:/home/iman/Applications/android-sdk/android-sdk-linux/tools
 
 # the fuck configurations
 eval $(thefuck --alias)
