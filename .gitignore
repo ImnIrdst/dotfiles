@@ -32,7 +32,9 @@ Applications/WebStorm-143.1559.5
 Applications/PhpStorm-163.10504.2/
 Applications/WebStorm-163.12024.17/
 Applications/xkblayout-state/
-
+Applications/android-studio/
+Applications/genymotion-2.9.0-linux_x64.bin
+Applications/genymotion/
 
 .config/QtProject.conf
 .config/RStudio/
@@ -92,17 +94,15 @@ Applications/xkblayout-state/
 .config/gpick/
 .config/transmission
 .config/clipit/
+.config/Code/
+.config/Genymobile/
+.config/wanna-desktop/
 
-/.ionic/
+.ionic/
 .IntelliJIdea15/
 .atom/
 .node_repl_history
 .npm/
-.zcompdump
-.zcompdump-iman-ThinkPad-Edge-E530-5.1.1
-.zsh-update
-.zsh_history
-.zshrc
 .Android/
 .AndroidStudio2.2/
 .IdeaIC2016.3/
@@ -115,8 +115,6 @@ Applications/xkblayout-state/
 .gradle/
 .gtkrc.bak
 .task/
-.taskrc
-.v8flags.5.1.281.89.iman.json
 .vim/
 .vpnmakers
 .wget-hsts
@@ -124,7 +122,6 @@ Applications/xkblayout-state/
 .gimp-2.8/
 .gstreamer-0.10/
 .sqlite_history
-
 .furiusisomount/
 .gconf/
 .gitconfig
@@ -147,19 +144,12 @@ Applications/xkblayout-state/
 .recently-used
 .rstudio-desktop/
 .ssh/
-.sudo_as_admin_successful
 .texmf-var/
 .thumbnails/
 .thunderbird/
-.viminfo
-.xinputrc
-.xsession-errors
-.xsession-errors.old
-.dmrc
 .eclipse/
 .fehbg
 .cache/
-.chromium-bsu
 .compiz/
 .CLion12/
 .FontForge/
@@ -177,16 +167,27 @@ Applications/xkblayout-state/
 .PhpStorm2016.3/
 .cordova/
 .oracle_jre_usage/
+.AndroidStudio2.3/
+.Genymobile/
+.crashlytics/
+.vscode/
+
 .v8flags.5.1.281.93.iman.json
+.dmrc
+.xsession-errors
+.xsession-errors.old
+.chromium-bsu
+.viminfo
+.xinputrc
+.sudo_as_admin_successful
+.taskrc
+.v8flags.5.1.281.89.iman.json
+.zcompdump
+.zcompdump-iman-ThinkPad-Edge-E530-5.1.1
+.zsh-update
+.zsh_history
+.zshrc
 
+snap/
 
-
-both-con-down.sh
-both-con-up.sh
-
-Add lang script to i3blocks
-
-Add google-keep script
-Add clipit and display-laptop-only to startup scripts
-Installing jdk1.8.0_121 and installing path variables
-
+anbox-installer

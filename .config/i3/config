@@ -160,6 +160,7 @@ assign [class="Atom"]                   $workspace7
 assign [class="Eclipse"]                $workspace7
 assign [class="Spyder"]                 $workspace7
 assign [class="TeXstudio"]              $workspace7
+assign [class="Code"]		        $workspace7
 
 assign [class="Rhythmbox"]              $workspace0
 # assign [class="Spotify"]                $workspace0 TeXstudio
