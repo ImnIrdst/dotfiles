@@ -1,0 +1,15 @@
+#!/usr/bin/python3
+
+import sh
+
+lines = sh.free('-m').split("\n")
+
+mem_line = lines[1].split()
+
+total = int(mem_line[1])
+avail = int(mem_line[-1])
+
+used = (total - avail)
+used_percentage = (used / total)*100
+
+print("%.1f GiB (%.1f%%)"%(used / 1024, used_percentage))

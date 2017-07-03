@@ -252,7 +252,7 @@ bindsym XF86MonBrightnessDown exec xbacklight -dec 20 # decrease screen brightne
 bindsym $mod+l exec i3lock-imn
 
 # background
-exec_always feh --bg-fill "/mnt/4E903A9B903A8A0B/Scratchpad/Pics/clock_by_Bernhard_Hanakam.jpg"
+exec_always feh --bg-fill "/usr/share/backgrounds/clock_by_Bernhard_Hanakam.jpg"
 
 # startup scripts (by me)
 exec compton # for adding tranparency to i3 (roffy and terminal)

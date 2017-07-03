@@ -141,3 +141,8 @@ eval $(thefuck --alias)
 
 # Minimal PS1
 export MINIMAL_PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
+
+# Virtualenv wrapper
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export WORKON_HOME=~/.envs
+source /usr/local/bin/virtualenvwrapper.sh

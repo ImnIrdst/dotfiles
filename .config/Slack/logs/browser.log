@@ -1,0 +1,62 @@
+[07/02/17, 12:16:35:666] info: ╔════════════════════════════════════════════════════════════════════════════════╗
+[07/02/17, 12:16:35:667] info: ║      Slack 2.6.3, linux 4.4.0-83-generic on x64 at 07/02/17, 12:16:35:659      ║
+[07/02/17, 12:16:35:668] info: ╚════════════════════════════════════════════════════════════════════════════════╝
+[07/02/17, 12:16:35:920] info: TraceRecorder: setting up trace recorder, trace will be stored under /home/iman/.config/Slack/logs/recorded-trace
+[07/02/17, 12:16:35:931] info: Initializing local storage instance at path: /home/iman/.config/Slack/local-settings.json
+[07/02/17, 12:16:36:147] info: Store: persist/REHYDRATE
+[07/02/17, 12:16:36:149] info: BrowserStore: Let's migrate Redux state
+[07/02/17, 12:16:36:150] info: Initializing local storage instance at path: /home/iman/.config/Slack/redux-state.json
+[07/02/17, 12:16:36:151] info: BrowserStore: Finished migration, make a note of it
+[07/02/17, 12:16:36:154] info: Store: COMPLETED
+{ redux: true, macgap: false }
+[07/02/17, 12:16:36:375] info: Tray Handler: Showing a tray balloon with title: Welcome to Slack!
+[07/02/17, 12:16:36:385] info: Store: UPDATE_SETTINGS
+{ isDevMode: false,
+  appVersion: '2.6.3',
+  versionName: 'XO',
+  devEnv: null,
+  resourcePath: '/usr/lib/slack/resources/app.asar',
+  launchedWithLink: null,
+  webappSrcPath: null,
+  webappParams: null,
+  launchOnStartup: false,
+  releaseChannel: 'prod',
+  openDevToolsOnStart: false,
+  logFile: null,
+  pretendNotReallyWindows10: false,
+  isAeroGlassEnabled: false,
+  platformVersion: { major: 4, minor: 4, build: 0 },
+  isTitleBarHidden: false,
+  linux: 
+   { os: 'Ubuntu 16.04.2 LTS',
+     release: 'xenial',
+     desktopEnvironment: 'i3' } }
+[07/02/17, 12:16:36:393] info: Store: UPDATE_SETTINGS
+{ hasRunApp: true }
+[07/02/17, 12:16:36:406] info: Store: ADD_WINDOW
+{ windowId: 1, windowType: 'MAIN' }
+[07/02/17, 12:16:36:411] info: Loading windowMetrics
+[07/02/17, 12:16:36:413] info: Store: SAVE_WINDOW_SETTINGS
+{ position: [ 384, 108 ], size: [ 1152, 864 ] }
+[07/02/17, 12:16:36:439] info: Store: UPDATE_SETTINGS
+{ PrefSSBFileDownloadPath: '/home/iman/Downloads' }
+[07/02/17, 12:16:36:442] info: App: Welcome to Slack 2.6.3 x64
+[07/02/17, 12:16:36:443] info: App load time: 867ms
+[07/02/17, 12:16:36:446] info: Store: SET_FULL_SCREEN
+[07/02/17, 12:16:37:569] info: Store: SET_NETWORK_STATUS online
+[07/02/17, 12:16:37:587] info: Main window finished load. Launched on login: false
+[07/02/17, 12:16:38:596] info: Store: SAVE_WINDOW_SETTINGS
+{ size: [ 958, 1060 ], position: [ 962, 0 ], isMaximized: false }
+[07/02/17, 12:16:44:125] info: Attempted to close the window, hiding due to run from tray
+[07/02/17, 12:16:44:128] info: Store: UPDATE_SETTINGS
+{ hasRunFromTray: true }
+[07/02/17, 12:16:44:133] info: Store: SHOW_TRAY_BALLOON
+{ title: 'Why didn\'t Slack quit?',
+  content: 'Slack\'s set to stay running in the notification area. To change this, visit Preferences > Linux App.' }
+[07/02/17, 12:16:44:135] info: Tray Handler: Showing a tray balloon with title: Why didn't Slack quit?
+[07/02/17, 13:21:35:183] info: Store: FOREGROUND_APP
+[07/02/17, 13:21:37:570] info: Store: QUIT_APP
+[07/02/17, 13:21:37:574] info: Allowing window close because user chose to quit
+[07/02/17, 13:21:37:578] info: App: Disposing application
+[07/02/17, 13:21:37:580] info: Store: REMOVE_WINDOW 1
+[07/02/17, 13:21:37:597] info: Store: UPDATE_TEAM_USAGE

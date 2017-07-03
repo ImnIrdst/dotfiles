@@ -10,7 +10,7 @@ par1=$2
 par2=$3
 
 if   [ "${par1:0:1}" == "u" ]; then
-        sudo openconnect -b -u iruser788867 --passwd-on-stdin --no-cert-check $3.cisadd.com <<< 'XXXXX'
+        sudo openconnect -b -u iruser788867 --passwd-on-stdin --no-cert-check $3.cisadd.com < /home/iman/.config/.vpnmakers
 elif [ "${par1:0:1}" == "d" ]; then
         sudo pkill -SIGINT openconnect
 elif [ "${par1:0:1}" == "s" ]; then
