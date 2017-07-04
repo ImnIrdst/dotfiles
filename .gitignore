@@ -141,8 +141,22 @@ snap/
 
 anbox-installer
 
+
 *Cache*
-.config/chromium/
+
 .config/user-dirs.dirs
 .config/user-dirs.locale
-.config/sublime-text-3/Local/Auto Save Session.sublime_session
+
+.config/chromium/
+
+.config/sublime-text-3/Local/
+
+.config/Slack/Local Storage/
+.config/Slack/SS
+.config/Slack/SingletonCookie
+.config/Slack/SingletonLock
+.config/Slack/dictionaries/
+.config/Slack/logs/
+
+.config/gpick/autosave.gpa
+.config/gpick/user_init.lua

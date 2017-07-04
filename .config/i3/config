@@ -256,10 +256,10 @@ exec_always feh --bg-fill "/usr/share/backgrounds/clock_by_Bernhard_Hanakam.jpg"
 
 # startup scripts (by me)
 exec compton # for adding tranparency to i3 (roffy and terminal)
-exec setxkbmap -layout us,ir -option grp:alt_shift_toggle # for adding alt-shift for changing keyboard layout settings
 exec display-laptop-only # for default startup display mode
 exec redshift 
 exec clipit 
+exec_always setxkbmap -layout us,ir -option grp:alt_shift_toggle # binding alt-shift for changing keyboard layout settings
 
 # don't know 
 exec --no-startup-id gnome-settings-daemon
