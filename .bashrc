@@ -122,9 +122,9 @@ fi
 export PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@Thinkpad-E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
 
 # installling the java
-export JAVA_HOME=/usr/local/java/jdk1.8.0_121 # for java
-export JRE_HOME=$JAVA_HOME/jre # for java
-export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin # for java
+export JAVA_HOME=/usr/local/java/jdk1.8.0_131
+export JRE_HOME=$JAVA_HOME/jre
+export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin 
 
 # installing the jupyter
 export PATH=$PATH:~/.local/bin # for jupyter 
@@ -143,6 +143,13 @@ eval $(thefuck --alias)
 export MINIMAL_PS1='\[\e]0;\u@E530: \W\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\][\u@E530\[\033[00m\] \W\[\033[01;32m\]]\[\033[00m\]\$ '
 
 # Virtualenv wrapper
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python2
 export WORKON_HOME=~/.envs
 source /usr/local/bin/virtualenvwrapper.sh
+
+# Go Settings
+export GOPATH=/home/iman/Workspace/Cafebazaar-Projects/Go-Workspace
+export GOROOT=/usr/local/go
+export LGOBIN=$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH=$PATH:$LGOBIN

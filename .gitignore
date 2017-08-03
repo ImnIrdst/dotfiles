@@ -38,6 +38,11 @@ Applications/android-studio/
 Applications/genymotion-2.9.0-linux_x64.bin
 Applications/genymotion/
 Applications/pycharm-community-2017.1.4/
+Applications/Gogland-172.3757.2/
+Applications/idea-IU-171.4694.70/
+Applications/pycharm-2017.1.4/
+Applications/redis-stable/
+
 
 .ionic/
 .IntelliJIdea15/
@@ -118,6 +123,18 @@ Applications/pycharm-community-2017.1.4/
 .python_history
 .steam/
 .dbus/
+.Gogland1.0/
+.IntelliJIdea2017.1/
+.PyCharm2017.1/
+.PyCharm2017.2/
+.glide/
+.mysql_history
+.nbi/
+.netbeans/
+.rediscli_history
+.v8flags.4.5.103.35.5be9a68073f66a56554e25614e9f1c9a.json
+.xsel.log
+.yjp/
 
 .steampath
 .steampid
@@ -148,8 +165,20 @@ anbox-installer
 .config/user-dirs.locale
 
 .config/chromium/
-
+.config/Brackets/
+.config/QtProject.conf
+.config/configstore/
+.config/konsolerc
+.config/libreoffice/
+.config/spotify/
+.config/sqlitebrowser/
+.config/totem/
 .config/sublime-text-3/Local/
+.config/gpick/autosave.gpa
+.config/gpick/user_init.lua
+.config/ibus/
+.config/nautilus/
+.config/sublime-text-3/
 
 .config/Slack/Local Storage/
 .config/Slack/SS
@@ -157,6 +186,4 @@ anbox-installer
 .config/Slack/SingletonLock
 .config/Slack/dictionaries/
 .config/Slack/logs/
-
-.config/gpick/autosave.gpa
-.config/gpick/user_init.lua
+.config/Slack/

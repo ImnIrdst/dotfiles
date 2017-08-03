@@ -146,7 +146,8 @@ bindsym $mod+Ctrl+Shift+Right move workspace to output left
 # assign [class="Thunar"]                 $workspace4
 
 assign [class="TelegramDesktop"]        $workspace5
-# assign [class="Skype"]                  $workspace5
+assign [class="Skype"]                  $workspace5
+assign [class="Slack"]					$workspace5
 
 assign [class="Evince"]                 $workspace6
 
@@ -154,16 +155,16 @@ assign [class="jetbrains-pycharm"]      $workspace7
 assign [class="jetbrains-webstorm"]     $workspace7
 assign [class="jetbrains-idea-ce"]      $workspace7
 assign [class="jetbrains-studio"]       $workspace7
-assign [class="jetbrains-phpstorm"]       $workspace7
-assign [class="Brackets"]       	$workspace7
+assign [class="jetbrains-phpstorm"]     $workspace7
+assign [class="jetbrains-gogland"]      $workspace7
+assign [class="Brackets"]       	    $workspace7
 assign [class="Atom"]                   $workspace7
 assign [class="Eclipse"]                $workspace7
 assign [class="Spyder"]                 $workspace7
 assign [class="TeXstudio"]              $workspace7
-assign [class="Code"]		        $workspace7
+assign [class="Code"]		            $workspace7
 
 assign [class="Rhythmbox"]              $workspace0
-# assign [class="Spotify"]                $workspace0 TeXstudio
 for_window [class="Spotify"] move to workspace $workspace0
 
 
