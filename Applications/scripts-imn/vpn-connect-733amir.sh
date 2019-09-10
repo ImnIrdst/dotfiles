@@ -10,12 +10,15 @@ par1=$2
 par2=$3
 
 if   [ "${par1:0:1}" == "u" ]; then
-        sudo openconnect -b -u iruser788867 --passwd-on-stdin --no-cert-check $3.cisadd.com < /home/iman/.config/.vpnmakers
+        sudo pkill -SIGINT openconnect
+        sudo openconnect -b -u ir294772 --servercert sha256:d1988b24b9455378e624d87fc91c1696598b5303b43eb0695a51a33f9c20830f --passwd-on-stdin $3.cisadd2.com < /Users/iman/.config/.vpnmakers
 elif [ "${par1:0:1}" == "d" ]; then
         sudo pkill -SIGINT openconnect
-elif [ "${par1:0:1}" == "s" ]; then
+elif [ "${par0:0:1}" == "s" ]; then
         ps aux | grep openconnect
-elif [ "${par1:0:1}" == "h" ]; then
+elif [ "${par0:0:1}" == "i" ]; then
+	ping twitter.com
+elif [ "${par0:0:1}" == "h" ]; then
         echo 'Usage:
         This command need root privileges.
         vpn {c SERVER, s, d}
@@ -25,6 +28,8 @@ elif [ "${par1:0:1}" == "h" ]; then
                         Printing status of program.
                 d
                         Disconnecting from server.
+		i
+			Is connected (pings twitter)
                 h
                         Printing this manual.'
 fi
